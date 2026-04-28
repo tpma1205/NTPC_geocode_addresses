@@ -57,7 +57,7 @@ def main():
     )
     parser.add_argument("--key", "-k", default=None, help="Google Maps API 金鑰")
     parser.add_argument(
-        "--column", "-c", default="S_ADDR2", help="地址欄位名稱（預設: S_ADDR2）"
+        "--column", "-c", default="ADDR", help="地址欄位名稱（預設: ADDR）"
     )
     args = parser.parse_args()
 
